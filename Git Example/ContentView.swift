@@ -10,7 +10,9 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Text("Testing for Git")
+           RoundedRectangle(cornerRadius: 8)
+                .frame(width: 200, height: 100)
+                .foregroundStyle(.blue)
         }
         .padding()
     }
