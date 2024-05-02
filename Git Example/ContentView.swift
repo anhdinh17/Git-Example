@@ -10,9 +10,14 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-           RoundedRectangle(cornerRadius: 8)
+            RoundedRectangle(cornerRadius: 8)
                 .frame(width: 200, height: 100)
                 .foregroundStyle(.blue)
+            
+            Circle()
+                .frame(width: 150, height: 150)
+                .foregroundStyle(Color.green)
+            
         }
         .padding()
     }
