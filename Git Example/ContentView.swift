@@ -18,6 +18,7 @@ struct ContentView: View {
                 .frame(width: 150, height: 150)
                 .foregroundStyle(Color.green)
             
+            Text("Add new Explore View")
         }
         .padding()
         .onAppear {
