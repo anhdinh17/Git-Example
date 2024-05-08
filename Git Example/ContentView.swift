@@ -18,7 +18,7 @@ struct ContentView: View {
                 .frame(width: 150, height: 150)
                 .foregroundStyle(Color.green)
             
-            Text("This is ContentView")
+            Text("The text is done by Kelly")
         }
         .padding()
         .onAppear {
