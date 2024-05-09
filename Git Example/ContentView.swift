@@ -18,8 +18,7 @@ struct ContentView: View {
                 .frame(width: 150, height: 150)
                 .foregroundStyle(Color.green)
             
-            Text("The text is done by Tracy")
-            Text("The text is done by Adam")
+            Text("This is Alex work")
         }
         .padding()
         .onAppear {
