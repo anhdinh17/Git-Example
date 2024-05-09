@@ -24,6 +24,7 @@ struct ContentView: View {
         .padding()
         .onAppear {
             // Work from home_analytics
+            // Do something on appearance
         }
     }
 }
